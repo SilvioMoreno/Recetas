@@ -1,4 +1,13 @@
 
-public class Receta {
+public class Receta 
+{
 
+	String nombre;
+	String ingredientes;
+	String preparacion;
+	
+	
+	
+	
+	
 }
