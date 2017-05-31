@@ -1,3 +1,4 @@
+import java.util.*;
 
 public class Receta 
 {
@@ -6,6 +7,8 @@ public class Receta
 	String ingredientes;
 	String preparacion;
 	
+	ArrayList<String> Constructor1 = new ArrayList<String>();
+	ArrayList<String> Constructor2 = new ArrayList<String>();
 	
 	
 	
