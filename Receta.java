@@ -41,6 +41,32 @@ public class Receta
 	ArrayList<String> Constructor2 = new ArrayList<String>();
 	
 	
+	public class Ingredientes
+	{
+		String cantidad;
+		String nombre;
+		
+	}
+	
+			
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 }
