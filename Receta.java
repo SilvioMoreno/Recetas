@@ -9,11 +9,11 @@ public class Receta
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public String getIngredientes() {
-		return ingredientes;
+	public ArrayList<Receta.Ingredientes> getIngredientes() {
+		return Ingredientes;
 	}
 	public void setIngredientes(String ingredientes) {
-		this.ingredientes = ingredientes;
+		this.Ingredientes = Ingredientes;
 	}
 	public String getPreparacion() {
 		return preparacion;
@@ -34,11 +34,18 @@ public class Receta
 		Constructor2 = constructor2;
 	}
 	String nombre;
-	String ingredientes;
+	ArrayList<Ingredientes> Ingredientes = new ArrayList<Ingredientes>();
 	String preparacion;
 	
 	ArrayList<String> Constructor1 = new ArrayList<String>();
 	ArrayList<String> Constructor2 = new ArrayList<String>();
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	public class Ingredientes
