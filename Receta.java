@@ -54,20 +54,20 @@ public class Receta
 	
 	public class Ingredientes
 	{
-		public String getCantidad() {
+		public Float getCantidad() {
 			return cantidad;
 		}
-		public void setCantidad(String cantidad) {
+		public void setCantidad(Float cantidad) {
 			this.cantidad = cantidad;
 		}
 		public String getNombre() {
 			return nombre;
 		}
 		public void setNombre(String nombre) {
-			this.nombre = nombre;
+			this.unidad = nombre;
 		}
-		String cantidad;
-		String nombre;
+		Float cantidad;
+		String unidad;
 		
 	}
 	
