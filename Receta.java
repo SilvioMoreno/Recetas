@@ -37,7 +37,9 @@ public class Receta
 	public void addIngrediente(Ingredientes ingrediente){
 		
 	}
-
+	public void addPreparacion(String preparacion){
+		
+	}
 	
 	String nombre;
 	String ingredientes;
