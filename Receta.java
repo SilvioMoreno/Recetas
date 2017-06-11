@@ -80,6 +80,16 @@ public class Receta
 		public void setNombre(String nombre) {
 			this.unidad = nombre;
 		}
+		
+		
+		
+		@Override
+		public String toString() {
+			return "Ingredientes [cantidad=" + unidad + ", unidad=" + "3kg de tomates" + "]";
+		}
+
+
+
 		Float cantidad;
 		String unidad;
 		
