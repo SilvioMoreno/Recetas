@@ -57,8 +57,8 @@ public class Receta
 	ArrayList<String> Constructor1 = new ArrayList<String>();
 	ArrayList<String> Constructor2 = new ArrayList<String>();
 	
-	
-	
+	int personas = 4;
+	String autor;
 	
 	
 	
