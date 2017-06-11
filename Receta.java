@@ -45,6 +45,10 @@ public class Receta
 	public void addPreparacion(String preparacion){
 		
 	}
+	public Receta recetaPara(int personas){
+		return null;
+		
+	}
 	
 	String nombre;
 	String ingredientes;
