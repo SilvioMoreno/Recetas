@@ -54,6 +54,12 @@ public class Receta
 	
 	public class Ingredientes
 	{
+		public String getUnidad() {
+			return unidad;
+		}
+		public void setUnidad(String unidad) {
+			this.unidad = unidad;
+		}
 		public Float getCantidad() {
 			return cantidad;
 		}
