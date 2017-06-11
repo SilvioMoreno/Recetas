@@ -33,6 +33,12 @@ public class Receta
 	public void setConstructor2(ArrayList<String> constructor2) {
 		Constructor2 = constructor2;
 	}
+	
+	public void addIngrediente(Ingredientes ingrediente){
+		
+	}
+
+	
 	String nombre;
 	String ingredientes;
 	ArrayList<String> preparacionArray= new ArrayList<String>();
