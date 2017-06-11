@@ -3,6 +3,11 @@ import java.util.*;
 public class Receta 
 {
 
+	@Override
+	public String toString() {
+		return "Receta [nombre=" + nombre +  ", Ingredientes=" + Ingredientes + ", preparacion=" + preparacion + ", Constructor1=" + Constructor1
+				+ ", Constructor2=" + Constructor2 + "]";
+	}
 	public String getNombre() {
 		return nombre;
 	}
